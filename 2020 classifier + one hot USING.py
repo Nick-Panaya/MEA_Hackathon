@@ -34,8 +34,8 @@ from sklearn import tree
 import xlsxwriter
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-dataset = pd.ExcelFile(r'D:\AIT\THESIS\Kaew\Final_Kaew\Result\LSTM\Colab\Hi accurancy\Data 1000 epoach.xlsx')
-#dataset = pd.ExcelFile(r'D:\AIT\THESIS\Kaew\Final_Kaew\Result\LSTM\Reg.xlsx')
+dataset = pd.ExcelFile(r'D:\Result\LSTM\Colab\Hi accurancy\Data 1000 epoach.xlsx')
+#dataset = pd.ExcelFile(r'D:\Result\LSTM\Reg.xlsx')
 dataset.sheet_names
 
 
