@@ -20,7 +20,7 @@ from sklearn.metrics import mean_squared_error
 import xlsxwriter
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-dataset = pd.ExcelFile(r'C:\Users\LENOVO\PycharmProjects\Kaew\Thesis\PT data_2018_2019_C+S_time.xlsx')
+dataset = pd.ExcelFile(r'C:\Users\LENOVO\PycharmProjects\PT data_2018_2019_C+S_time.xlsx')
 dataset.sheet_names
 
 data = dataset.parse('2018 DGA')
